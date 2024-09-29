@@ -5,9 +5,9 @@ sentiment = SentimentIntensityAnalyzer()
 while(True):
     print("For review -- Press 1\n")
     print("To exit -- Press any key\n")
-    x = input("Enter choice == ")
+    choice = input("Enter choice == ")
 
-    if x == '1':
+    if choice == '1':
         text_1 = input("\nEnter your review for the product : ")
 
         sent_1 = sentiment.polarity_scores(text_1)
