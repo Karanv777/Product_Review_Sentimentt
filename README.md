@@ -1,0 +1,3 @@
+# Product_Review_Sentimentt
+This Repo is my attempt to learn to create a product review sentiment program. 
+I have used vaderSentiment for the Intesity and polarity scores....
