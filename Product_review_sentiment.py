@@ -14,13 +14,13 @@ while(True):
 
         try:
             if sent_1["compound"] <= -0.5:
-                print("🤬😡\n")
+                print("Negative 😡\n")
 
             elif sent_1["compound"] >= 0.5:
-                print("😍\n")
+                print("Positive 😍\n")
 
             else:
-                print("😐\n")
+                print("Neutral 😐\n")
 
         except Exception as e:
             print(e)
